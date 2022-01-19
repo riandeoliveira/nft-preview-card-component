@@ -42,7 +42,7 @@ Layout desenvolvido com base no [design](https://www.frontendmentor.io/challenge
     <li>Entre com o comando <code>git clone 'https://github.com/riandeolivera/nft-preview-card-component'</code>.</li>
     <li>Instale as dependências necessárias usando <code>npm install</code>.</li>
     <li>Após a instalação, insira <code>npm start</code>.</li>
-    <li>Digite <code>localhost:3000</code> na sua barra de navegação, onde a aplicação estará rodando.</li>
+    <li>Entre na URL <a href="http://localhost:3000">http://localhost:3000</a> pela sua barra de navegação, é onde a aplicação estará rodando.</li>
 </ol>
 
 ## Desenvolvido em
