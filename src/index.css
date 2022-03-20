@@ -17,6 +17,7 @@
 :root {
   --background: #0d192b;
   --bg-view: #00fff786;
+  --card-shadow: #00000080;
   --card: #14253d;
   --cyan: #00fff7;
   --line: #2f415b;
