@@ -2,6 +2,7 @@ import data from "../data/data.json";
 import {
   MainArea,
   NameContainer,
+  NameContent,
   Name,
   Code,
   Description,
@@ -34,8 +35,10 @@ export const Main: React.FC = () => {
   return (
     <MainArea>
       <NameContainer>
-        <Name>{name}</Name>
-        <Code>#{code}</Code>
+        <NameContent>
+          <Name>{name}</Name>
+          <Code>#{code}</Code>
+        </NameContent>
       </NameContainer>
       <Description>{description}</Description>
       <DataContainer>

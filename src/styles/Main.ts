@@ -1,19 +1,22 @@
 import styled from "styled-components";
 
 export const MainArea = styled.main`
-  margin: 20px 0;
   display: flex;
   flex-direction: column;
+  margin: 20px 0;
 `;
 
 export const NameContainer = styled.h1`
-  color: var(--title-color);
+  color: var(--white);
   cursor: pointer;
-  font-size: 18px;
   display: flex;
+  font-size: 18px;
+  max-width: 100%;
+`;
 
+export const NameContent = styled.div`
   &:hover {
-    color: var(--title-hover-color);
+    color: var(--cyan);
   }
 `;
 
@@ -24,7 +27,7 @@ export const Name = styled.span`
 export const Code = styled.span``;
 
 export const Description = styled.p`
-  color: var(--text-color);
+  color: var(--text);
   font-size: 15px;
   font-weight: 300;
   line-height: 1.5em;
@@ -37,9 +40,8 @@ export const DataContainer = styled.div`
 `;
 
 export const PriceContainer = styled.div`
-  align-items: center;
+  color: var(--cyan);
   display: flex;
-  color: var(--price-color);
   font-size: 13px;
 `;
 
@@ -48,7 +50,6 @@ export const Ethereum = styled.img`
 `;
 
 export const Price = styled.span`
-  font-weight: 400;
   margin: 0 2px 0 6px;
 `;
 
@@ -56,8 +57,8 @@ export const CurrencyCode = styled.span``;
 
 export const TimeContainer = styled.div`
   align-items: center;
+  color: var(--text);
   display: flex;
-  color: var(--text-color);
   font-size: 13px;
 `;
 
@@ -67,7 +68,6 @@ export const Clock = styled.img`
 
 export const Time = styled.span`
   margin: 0 2px 0 4px;
-  font-weight: 400;
 `;
 
 export const TimeInfo = styled.span``;

@@ -5,6 +5,12 @@ export const HeaderArea = styled.header`
   cursor: pointer;
   height: 252px;
   width: 252px;
+
+  &:hover {
+    div {
+      display: flex;
+    }
+  }
 `;
 
 export const Equilibrium = styled.img`
@@ -15,7 +21,7 @@ export const Equilibrium = styled.img`
 
 export const ViewContainer = styled.div`
   align-items: center;
-  background-color: var(--bg-img-color);
+  background-color: var(--bg-view);
   border-radius: inherit;
   display: none;
   height: inherit;

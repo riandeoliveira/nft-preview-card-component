@@ -2,30 +2,31 @@ import styled from "styled-components";
 
 export const FooterArea = styled.footer`
   align-items: center;
-  border-top: 1px solid var(--line-color);
+  border-top: 1px solid var(--line);
   display: flex;
-  padding-top: 13px;
   font-size: 13px;
+  padding-top: 13px;
 `;
 
 export const Avatar = styled.img`
-  border: 1px solid var(--border-avatar-color);
   border-radius: 50%;
-  width: 30px;
+  border: 1px solid var(--white);
   margin-right: 12px;
+  width: 30px;
 `;
 
 export const Author = styled.span`
-  color: var(--text-color);
+  color: var(--text);
   font-weight: 300;
   margin-right: 3px;
 `;
 
 export const AuthorName = styled.span`
-  color: var(--name-color);
+  color: var(--white);
   cursor: pointer;
+  font-weight: 300;
 
   &:hover {
-    color: var(--name-hover-color);
+    color: var(--cyan);
   }
 `;
