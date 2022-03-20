@@ -1,38 +1,39 @@
-@charset "uft-8";
+@charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+@import "./styles/animations/animations.css";
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: var(--primary), var(--secondary);
+  list-style: none;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 :root {
-    --bg-card-color: #14253d;
-    --bg-img-color: #00fff786;
-    --bg-main-color: #0d192b;
-    --border-avatar-color: #fff;
-    --image-hover-color: #00fff7;
-    --line-color: #2f415b;
-    --name-color: #fff;
-    --name-hover-color: #00fff7;
-    --price-color: #00fff7;
-    --text-color: #8bacda;
-    --title-color: #fff;
-    --title-hover-color: #00fff7;
+  --background: #0d192b;
+  --bg-view: #00fff786;
+  --card: #14253d;
+  --cyan: #00fff7;
+  --line: #2f415b;
+  --text: #8bacda;
+  --white: #fff;
 
-    --font: 'Outfit', sans-serif;
+  --primary: "Outfit";
+  --secondary: sans-serif;
 }
 
 html {
-    align-items: center;
-    display: flex;
-    height: 100%;
-    justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
 }
 
 body {
-    background-color: var(--bg-main-color);
-    font-family: var(--font);
+  background-color: var(--background);
 }
