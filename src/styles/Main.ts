@@ -1,22 +1,24 @@
 import styled from "styled-components";
 
 export const MainArea = styled.main`
+  animation: fade-in 1s;
   display: flex;
   flex-direction: column;
   margin: 20px 0;
 `;
 
-export const NameContainer = styled.h1`
-  color: var(--white);
-  cursor: pointer;
+export const NameContainer = styled.div`
   display: flex;
-  font-size: 18px;
-  max-width: 100%;
 `;
 
-export const NameContent = styled.div`
+export const NameContent = styled.h1`
+  color: var(--white);
+  cursor: pointer;
+  font-size: 18px;
+
   &:hover {
     color: var(--cyan);
+    transition: all 0.5s;
   }
 `;
 

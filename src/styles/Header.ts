@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
 export const HeaderArea = styled.header`
+  align-items: center;
   border-radius: 10px;
   cursor: pointer;
+  display: flex;
   height: 252px;
+  justify-content: center;
   width: 252px;
 
   &:hover {
@@ -15,12 +18,14 @@ export const HeaderArea = styled.header`
 
 export const Equilibrium = styled.img`
   border-radius: inherit;
+  height: inherit;
   position: absolute;
   width: inherit;
 `;
 
 export const ViewContainer = styled.div`
   align-items: center;
+  animation: fade-in 0.5s;
   background-color: var(--bg-view);
   border-radius: inherit;
   display: none;

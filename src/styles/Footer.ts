@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const FooterArea = styled.footer`
   align-items: center;
+  animation: fade-in 1s;
   border-top: 1px solid var(--line);
   display: flex;
   font-size: 13px;
@@ -28,5 +29,6 @@ export const AuthorName = styled.span`
 
   &:hover {
     color: var(--cyan);
+    transition: all 0.5s;
   }
 `;
