@@ -2,51 +2,34 @@
 
 ## Sobre o Projeto
 
-Layout desenvolvido com base no [design](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) proposto pelo site [Frontend Mentor](https://www.frontendmentor.io/home).
+Desenvolvido com base no [design](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) proposto pelo site [Frontend Mentor](https://www.frontendmentor.io/home).
 
-## Layout
+## Demonstração
 
 <div align="center">
-    <img src="demo/layout-desktop.gif" alt="Demonstração em computadores"></img>
+  <img alt="Application demo GIF. Reloading the page and hovering over the card to show animations." src="demo/profile-card-component.gif"></img>
 </div>
+
+## Como acessar
+
+A aplicação está hospedada no **GitHub Pages** e pode ser acessada [aqui](https://riandeoliveira.github.io/nft-preview-card-component/).
 
 ## Tecnologias utilizadas
 
 <div align="center">
-    <h3>Front-end</h3>
-    <img src="https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=HTML5&logoColor=E34C26" alt="HTML5 Icon" height="28" title="HTML5"></img>
-    <img src="https://img.shields.io/badge/-CSS3-05122A?style=flat&logo=CSS3&logoColor=2965F1" alt="CSS3 Icon" height="28" title="CSS3"></img>
-    <img src="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript&logoColor=F0DB4F" alt="JavaScript Icon" height="28" title="JavaScript"></img>
-    <img src="https://img.shields.io/badge/-React-05122A?style=flat&logo=React&logoColor=61DBFB" alt="React Icon" height="28" title="React"></img>
+  <h3>Front-End</h3>
+  <img alt="HTML5 logo. An orange shield with a large white number five in the middle." src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="35" title="HTML5 logo" width="50"></img>
+  <img alt="CSS3 logo. A blue shield with a large white number three in the middle." src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="35" title="CSS3 logo" width="50"></img>
+  <img alt="JavaScript logo. A yellow square with the dark letters JS in the lower right corner." src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" height="35" title="JavaScript logo" width="50"></img>
+  <img alt="React logo. A blue atom." src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" height="35" title="React.js logo" width="50"></img>
 </div>
 
-## Pré-requisitos
+## Atualizado em
 
-<ul>
-    <li>
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git Icon" width="15">
-        <a href="https://git-scm.com/" rel="external">Git</a>
-        <span>(Sistema de Controle de Versão)</span>
-    </li>
-    <li>
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js Icon" width="15">
-        <a href="https://nodejs.org/en/" rel="external">NPM</a>
-        <span>(Gerenciador de Pacotes do <strong>Node.js</strong>)</span>
-    </li>
-</ul>
-
-## Como utilizar
-
-<ol>
-    <li>Abra o terminal do Git no diretório onde ficará este projeto.</li>
-    <li>Entre com o comando <code>git clone 'https://github.com/riandeolivera/nft-preview-card-component'</code>.</li>
-    <li>Instale as dependências necessárias usando <code>npm install</code>.</li>
-    <li>Após a instalação, insira <code>npm start</code>.</li>
-    <li>Entre na URL <a href="http://localhost:3000">http://localhost:3000</a> pela sua barra de navegação, é onde a aplicação estará rodando.</li>
-</ol>
+21 de mar. de 2022
 
 ## Desenvolvido em
 
-18 de jan. de 2022
+28 de jan. de 2022
 
 <p align="center">Made with 💙 by Rian Oliveira</p>
