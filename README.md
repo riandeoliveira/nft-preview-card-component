@@ -7,7 +7,7 @@ Desenvolvido com base no [design](https://www.frontendmentor.io/challenges/nft-p
 ## Demonstração
 
 <div align="center">
-  <img alt="Application demo GIF. Reloading the page and hovering over the card to show animations." src="demo/profile-card-component.gif"></img>
+  <img alt="Application demo GIF. Reloading the page and hovering over the card to show animations." src="demo/nft-preview-card-component.gif"></img>
 </div>
 
 ## Como acessar
