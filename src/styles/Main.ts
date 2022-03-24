@@ -12,12 +12,12 @@ export const NameContainer = styled.div`
 `;
 
 export const NameContent = styled.h1`
-  color: var(--white);
+  color: var(--white-color);
   cursor: pointer;
   font-size: 18px;
 
   &:hover {
-    color: var(--cyan);
+    color: var(--aquamarine-color);
     transition: all 0.5s;
   }
 `;
@@ -29,7 +29,7 @@ export const Name = styled.span`
 export const Code = styled.span``;
 
 export const Description = styled.p`
-  color: var(--text);
+  color: var(--polo-blue-color);
   font-size: 15px;
   font-weight: 300;
   line-height: 1.5em;
@@ -42,7 +42,7 @@ export const DataContainer = styled.div`
 `;
 
 export const PriceContainer = styled.div`
-  color: var(--cyan);
+  color: var(--aquamarine-color);
   display: flex;
   font-size: 13px;
 `;
@@ -59,7 +59,7 @@ export const CurrencyCode = styled.span``;
 
 export const TimeContainer = styled.div`
   align-items: center;
-  color: var(--text);
+  color: var(--polo-blue-color);
   display: flex;
   font-size: 13px;
 `;

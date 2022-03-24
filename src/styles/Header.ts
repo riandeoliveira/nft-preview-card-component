@@ -26,7 +26,7 @@ export const Equilibrium = styled.img`
 export const ViewContainer = styled.div`
   align-items: center;
   animation: fade-in 0.5s;
-  background-color: var(--bg-view);
+  background-color: var(--spray-color);
   border-radius: inherit;
   display: none;
   height: inherit;
