@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import theme from "./theme/theme.json";
 
 export const MainArea = styled.main`
   animation: fade-in 1s;
@@ -12,12 +13,12 @@ export const NameContainer = styled.div`
 `;
 
 export const NameContent = styled.h1`
-  color: var(--white-color);
+  color: ${theme.colors.white};
   cursor: pointer;
   font-size: 18px;
 
   &:hover {
-    color: var(--aquamarine-color);
+    color: ${theme.colors.aquamarine};
     transition: all 0.5s;
   }
 `;
@@ -29,7 +30,7 @@ export const Name = styled.span`
 export const Code = styled.span``;
 
 export const Description = styled.p`
-  color: var(--polo-blue-color);
+  color: ${theme.colors["polo_blue"]};
   font-size: 15px;
   font-weight: 300;
   line-height: 1.5em;
@@ -42,7 +43,7 @@ export const DataContainer = styled.div`
 `;
 
 export const PriceContainer = styled.div`
-  color: var(--aquamarine-color);
+  color: ${theme.colors.aquamarine};
   display: flex;
   font-size: 13px;
 `;
@@ -59,7 +60,7 @@ export const CurrencyCode = styled.span``;
 
 export const TimeContainer = styled.div`
   align-items: center;
-  color: var(--polo-blue-color);
+  color: ${theme.colors.polo_blue};
   display: flex;
   font-size: 13px;
 `;

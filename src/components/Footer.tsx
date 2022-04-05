@@ -1,10 +1,10 @@
-import data from "../data/data.json";
+import content from "../content/footer.json";
 import { FooterArea, Avatar, Author, AuthorName } from "../styles/Footer";
-import avatar from "../assets/images/avatar.png";
+import { avatar } from "../assets/media";
 
-const { avatar_alt, author, author_name } = data;
+const { avatar_alt, author, author_name } = content;
 
-export const Footer: React.FC = () => {
+const Footer: React.FC = () => {
   return (
     <FooterArea>
       <Avatar alt={avatar_alt} src={avatar} />
@@ -13,3 +13,5 @@ export const Footer: React.FC = () => {
     </FooterArea>
   );
 };
+
+export default Footer;

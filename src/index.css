@@ -1,40 +1,4 @@
 @charset "UTF-8";
 
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
-@import "./styles/animations/animations.css";
-
-* {
-  border: 0;
-  box-sizing: border-box;
-  font-family: var(--primary-font), var(--secondary-font);
-  list-style: none;
-  margin: 0;
-  outline: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
-:root {
-  --aquamarine-color: #48f9f4;
-  --big-stone-color: #14253d;
-  --cod-gray-color: #0b0a0a73;
-  --firefly-color: #0d192b;
-  --polo-blue-color: #8bacda;
-  --rhino-color: #283e5c;
-  --spray-color: #67f4ef81;
-  --white-color: #ffffff;
-
-  --primary-font: "Outfit";
-  --secondary-font: sans-serif;
-}
-
-html {
-  align-items: center;
-  display: flex;
-  height: 100%;
-  justify-content: center;
-}
-
-body {
-  background-color: var(--firefly-color);
-}
+@import "./styles/animations/keyframes.css";

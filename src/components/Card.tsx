@@ -1,9 +1,9 @@
 import { CardContainer } from "../styles/Card";
-import { Header } from "./Header";
-import { Main } from "./Main";
-import { Footer } from "./Footer";
+import Header from "./Header";
+import Main from "./Main";
+import Footer from "./Footer";
 
-export const Card: React.FC = () => {
+const Card: React.FC = () => {
   return (
     <CardContainer>
       <Header />
@@ -12,3 +12,5 @@ export const Card: React.FC = () => {
     </CardContainer>
   );
 };
+
+export default Card;

@@ -1,11 +1,10 @@
-import data from "../data/data.json";
+import content from "../content/header.json";
 import { HeaderArea, Equilibrium, ViewContainer, View } from "../styles/Header";
-import equilibrium from "../assets/images/equilibrium.jpg";
-import view from "../assets/icons/view.svg";
+import { equilibrium, view } from "../assets/media";
 
-const { equilibrium_alt, view_alt } = data;
+const { equilibrium_alt, view_alt } = content;
 
-export const Header: React.FC = () => {
+const Header: React.FC = () => {
   return (
     <HeaderArea>
       <Equilibrium alt={equilibrium_alt} src={equilibrium} />
@@ -15,3 +14,5 @@ export const Header: React.FC = () => {
     </HeaderArea>
   );
 };
+
+export default Header;

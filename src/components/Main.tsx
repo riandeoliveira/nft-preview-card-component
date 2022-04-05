@@ -1,4 +1,4 @@
-import data from "../data/data.json";
+import content from "../content/main.json";
 import {
   MainArea,
   NameContainer,
@@ -16,8 +16,7 @@ import {
   Time,
   TimeInfo,
 } from "../styles/Main";
-import ethereum from "../assets/icons/ethereum.svg";
-import clock from "../assets/icons/clock.svg";
+import { ethereum, clock } from "../assets/media";
 
 const {
   name,
@@ -29,9 +28,9 @@ const {
   clock_alt,
   time,
   time_info,
-} = data;
+} = content;
 
-export const Main: React.FC = () => {
+const Main: React.FC = () => {
   return (
     <MainArea>
       <NameContainer>
@@ -56,3 +55,5 @@ export const Main: React.FC = () => {
     </MainArea>
   );
 };
+
+export default Main;

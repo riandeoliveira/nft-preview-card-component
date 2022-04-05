@@ -1,0 +1,16 @@
+{
+  "colors": {
+    "aquamarine": "#48f9f4",
+    "big_stone": "#14253d",
+    "cod_gray": "#0b0a0a73",
+    "firefly": "#0d192b",
+    "polo_blue": "#8bacda",
+    "rhino": "#283e5c",
+    "spray": "#67f4ef81",
+    "white": "#ffffff"
+  },
+  "fonts": {
+    "primary": "Outfit",
+    "secondary": "sans-serif"
+  }
+}
